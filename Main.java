@@ -1,6 +1,13 @@
 import java.util.Scanner;
 import java.util.Random;
 
+/**
+ * Members:
+ * - Janriz Mathew Libres
+ * - Mark Olaivar
+ * - Timothy Robert A. Mutia
+ */
+
 public class Main {
 
     static Scanner scanner = new Scanner(System.in);

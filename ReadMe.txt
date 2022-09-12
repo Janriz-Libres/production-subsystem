@@ -2,6 +2,11 @@
 | Production Control Simulation |
 +===============================+
 
+Members/Authors:
+- Janriz Mathew Libres
+- Mark Olaivar
+- Timothy Robert A. Mutia
+
 This program simulates the typical use case of a Production Program with a Director as the primary actor.
 
 Features & Limitations:

@@ -124,10 +124,13 @@ public class ProductionProgram {
         if (resources.isEnough(required)) {
             printLifeline("Resources OK");
             System.out.println("| There are enough resources.");
+
             printTarget(": Production Program");
             connect("sendProductionPlan()");
+
             printTargetWithoutBorder(": Messenger");
             printLifeline("requestProduction()");
+
             sendProductionPlan();
 
             System.out.println(border + "\n");
@@ -136,14 +139,17 @@ public class ProductionProgram {
             
             printSpaces(calculateSpaces(": Production Program"));
             System.out.println(": Production Program");
+
             printLifeline("displaySuccess()");
             displaySuccess();
             printTarget(": Director");
         } else {
             connect("Resources NOT OK");
             printTargetWithoutBorder(": Production Program");
+
             printLifeline("displayFailure()");
             displayFailure();
+            
             printTarget(": Director");
         }
     }
